@@ -25,6 +25,12 @@ kubectl -n sync-service  exec --stdin --tty sync-units2sf-69879fb4fc-b8hq2 -- sh
 - `kubectl get deployment -n sync-service`
 - `kubectl get deployment sync-units2sf -n sync-service`
 - `kubectl get deployment sync-units2sf -o yaml -n sync-service`
+- `kubectl get deploy fill-deployment-name -o yaml`
+
+## get ingress
+- `kubectl get ingress -A`
+- `kubectl describe ingress -A`
+- `kubectl get ingress -A -o json`
 
 ## delete command
 
